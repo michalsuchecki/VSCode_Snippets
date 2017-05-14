@@ -1,0 +1,30 @@
+{
+	"Create class constructor": {
+		"prefix": "_ctor",
+		"body" : [
+			"${1:ClassName}()",
+			"{",
+			"",
+			"}"
+		],
+		"description": ""
+	},
+
+	"Create property": {
+		"prefix": "_props",
+		"body" : [
+			"public ${1:int} ${2:value} { get; set; }"
+		],
+		"description": ""
+	},
+
+	"Create interface": {
+		"prefix": "_inter",
+		"body":[
+			"public interface I${1:Name}",
+			"{",
+			"}"
+		],
+		"description": ""
+	}
+}

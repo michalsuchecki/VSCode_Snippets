@@ -2,7 +2,7 @@
 	"Create class constructor": {
 		"prefix": "ctor",
 		"body" : [
-			"${1:ClassName}()",
+			"public ${1:ClassName}()",
 			"{",
 			"",
 			"}"
